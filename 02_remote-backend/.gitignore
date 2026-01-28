@@ -1,0 +1,16 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+crash.log
+crash.*.log
+
+# Local variable files
+*.tfvars
+*.tfvars.json
+
+# AWS credentials
+*.pem
+.aws/
+.env
